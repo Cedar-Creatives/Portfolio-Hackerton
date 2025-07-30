@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <!-- Essential Meta Tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Alex Johnson - Passionate Software Developer specializing in modern web technologies, creating innovative solutions that make a difference.">
+    <title>Alex Johnson - Software Developer Portfolio</title>
+    
+
+
+    <!-- External Resources - Optimized Loading -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@300;400;500;600;700&family=Lato:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- Theme Color for Mobile Browsers -->
+    <meta name="theme-color" content="#6366f1">
+    
+    <!-- Favicon with SVG for Modern Browsers -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+</head>
+<body>
+    <!-- Stunning Loading Screen -->
+    <div class="loading-screen" id="loading-screen">
+        <div class="loading-content">
+            <div class="loading-logo">
+                <div class="loading-circle"></div>
+                <div class="loading-circle"></div>
+                <div class="loading-circle"></div>
+            </div>
+            <h2 class="loading-text">Loading Portfolio</h2>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+        <div class="loading-particles"></div>
+    </div>
+
+    <!-- Enhanced Interactive Portfolio -->
+    <!-- Navigation Header -->
+    <header class="header">
+        <nav class="nav">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>Portfolio</h2>
+                </div>
+                
+                <!-- Desktop Menu -->
+                <ul class="nav-menu">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+                
+                <!-- Mobile Menu Toggle -->
+                <input type="checkbox" id="nav-toggle" class="nav-toggle-checkbox">
+                <label for="nav-toggle" class="nav-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </label>
+                
+                <!-- Mobile Menu -->
+                <ul class="nav-menu-mobile">
+                    <li><a href="#about" class="nav-link">About</a></li>
+                    <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#education" class="nav-link">Education</a></li>
+                    <li><a href="#interests" class="nav-link">Interests</a></li>
+                    <li><a href="#projects" class="nav-link">Projects</a></li>
+                    <li><a href="#contact" class="nav-link">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main">
+        <!-- About Me Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <div class="about-content">
+                    <div class="about-text">
+                        <h1 class="section-title">Hi, I'm <span class="highlight typewriter" data-text="Alex Johnson">Alex Johnson</span></h1>
+                        <h2 class="section-subtitle morphing-text" data-words="Software Developer,Tech Enthusiast,Problem Solver,Code Architect">Software Developer & Tech Enthusiast</h2>
+                        <p class="about-description">
+                            Welcome to my digital space! I'm a passionate software developer with a deep love for creating 
+                            innovative solutions that make a difference. My journey in technology is driven by curiosity, 
+                            continuous learning, and the desire to build applications that solve real-world problems.
+                        </p>
+                        <p class="about-description">
+                            I believe in the power of clean code, user-centered design, and collaborative development. 
+                            When I'm not coding, you'll find me exploring new technologies, contributing to open-source 
+                            projects, or sharing knowledge with the developer community.
+                        </p>
+                        <div class="about-buttons">
+                            <a href="#contact" class="btn btn-primary btn-liquid">Get In Touch</a>
+                            <a href="#projects" class="btn btn-secondary btn-liquid">View My Work</a>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="image-placeholder">
+                            <i class="fas fa-user-circle"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Programming Languages Section -->
+        <section id="skills" class="section skills">
+            <div class="container">
+                <h2 class="section-title">Programming Languages & Technologies</h2>
+                <p class="section-description">Technologies I work with to bring ideas to life</p>
+                
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <i class="fab fa-html5"></i>
+                        <h3>HTML5</h3>
+                        <p>Semantic markup</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-css3-alt"></i>
+                        <h3>CSS3</h3>
+                        <p>Modern styling</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-js-square"></i>
+                        <h3>JavaScript</h3>
+                        <p>Dynamic functionality</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-python"></i>
+                        <h3>Python</h3>
+                        <p>Backend development</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-react"></i>
+                        <h3>React</h3>
+                        <p>Frontend framework</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-node-js"></i>
+                        <h3>Node.js</h3>
+                        <p>Server-side runtime</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fas fa-database"></i>
+                        <h3>SQL</h3>
+                        <p>Database management</p>
+                    </div>
+                    <div class="skill-card">
+                        <i class="fab fa-git-alt"></i>
+                        <h3>Git</h3>
+                        <p>Version control</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Educational Background Section -->
+        <section id="education" class="section education">
+            <div class="container">
+                <h2 class="section-title">Educational Background</h2>
+                
+                <div class="education-content">
+                    <div class="education-text">
+                        <div class="education-item">
+                            <h3>Bachelor of Science in Computer Science</h3>
+                            <p class="education-institution">University of Technology • 2019-2023</p>
+                            <p class="education-description">
+                                Graduated with honors, specializing in software engineering and web development. 
+                                Completed coursework in algorithms, data structures, database systems, and software architecture. 
+                                Active member of the Computer Science Society and participated in multiple hackathons.
+                            </p>
+                        </div>
+                        
+                        <div class="education-item">
+                            <h3>Relevant Certifications</h3>
+                            <ul class="certifications-list">
+                                <li>AWS Certified Developer Associate</li>
+                                <li>Google Analytics Certified</li>
+                                <li>FreeCodeCamp Full Stack Development</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div class="cv-download">
+                        <div class="cv-card">
+                            <i class="fas fa-file-pdf"></i>
+                            <h3>Download My CV</h3>
+                            <p>Get a detailed overview of my experience and qualifications</p>
+                            <a href="cv.pdf" class="btn btn-primary" download="Alex_Johnson_CV.pdf">
+                                <i class="fas fa-download"></i>
+                                Download CV
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Interests Section -->
+        <section id="interests" class="section interests">
+            <div class="container">
+                <h2 class="section-title">Tech Interests & Passions</h2>
+                <p class="section-description">Areas of technology that inspire and motivate me</p>
+                
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Development</h3>
+                        <p>Creating responsive, accessible, and performant web applications</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-robot"></i>
+                        <h3>Artificial Intelligence</h3>
+                        <p>Exploring machine learning and AI applications in everyday solutions</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-code-branch"></i>
+                        <h3>Open Source</h3>
+                        <p>Contributing to open-source projects and collaborative development</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-mobile-alt"></i>
+                        <h3>Mobile Development</h3>
+                        <p>Building cross-platform mobile applications and progressive web apps</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Tech Innovation</h3>
+                        <p>Staying updated with emerging technologies and industry trends</p>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-users"></i>
+                        <h3>Community Building</h3>
+                        <p>Mentoring aspiring developers and organizing tech meetups</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Parallax Divider -->
+        <div class="parallax-section">
+            <div class="parallax-content">
+                <h2 class="parallax-title">Let's Build Something Amazing</h2>
+                <p class="parallax-subtitle">Turning ideas into digital reality</p>
+            </div>
+        </div>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section projects">
+            <div class="container">
+                <h2 class="section-title glitch-text" data-text="Featured Projects">Featured Projects</h2>
+                <p class="section-description">A showcase of my recent work and contributions</p>
+                
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-shopping-cart"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>E-Commerce Platform</h3>
+                            <p class="project-description">
+                                A full-stack e-commerce solution built with React and Node.js. Features include 
+                                user authentication, payment integration, inventory management, and responsive design.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">React</span>
+                                <span class="tech-tag">Node.js</span>
+                                <span class="tech-tag">MongoDB</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alexjohnson/ecommerce-platform" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="https://ecommerce-demo.alexjohnson.dev" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Data Visualization Dashboard</h3>
+                            <p class="project-description">
+                                An interactive dashboard for data analysis and visualization using D3.js and Python. 
+                                Includes real-time data updates, multiple chart types, and export functionality.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Python</span>
+                                <span class="tech-tag">D3.js</span>
+                                <span class="tech-tag">Flask</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alexjohnson/data-viz-dashboard" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="https://dataviz-demo.alexjohnson.dev" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-image">
+                            <i class="fas fa-tasks"></i>
+                        </div>
+                        <div class="project-content">
+                            <h3>Task Management App</h3>
+                            <p class="project-description">
+                                A collaborative task management application with real-time updates, team collaboration 
+                                features, and productivity analytics. Built with modern web technologies.
+                            </p>
+                            <div class="project-tech">
+                                <span class="tech-tag">Vue.js</span>
+                                <span class="tech-tag">Express</span>
+                                <span class="tech-tag">Socket.io</span>
+                            </div>
+                            <div class="project-links">
+                                <a href="https://github.com/alexjohnson/task-manager" class="project-link" target="_blank">
+                                    <i class="fab fa-github"></i>
+                                    GitHub
+                                </a>
+                                <a href="https://taskmanager-demo.alexjohnson.dev" class="project-link" target="_blank">
+                                    <i class="fas fa-external-link-alt"></i>
+                                    Live Demo
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2 class="section-title">Get In Touch</h2>
+                <p class="section-description">Let's connect and discuss opportunities or collaborations</p>
+                
+                <div class="contact-content">
+                    <div class="contact-info">
+                        <h3>Contact Information</h3>
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>alex.johnson@email.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-linkedin"></i>
+                            <div>
+                                <h4>LinkedIn</h4>
+                                <p>linkedin.com/in/alexjohnson-dev</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fab fa-github"></i>
+                            <div>
+                                <h4>GitHub</h4>
+                                <p>github.com/alexjohnson</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-form">
+                        <form class="form" action="#" method="post">
+                            <div class="form-group">
+                                <label for="name">Name *</label>
+                                <input 
+                                    type="text" 
+                                    id="name" 
+                                    name="name" 
+                                    required 
+                                    minlength="2" 
+                                    maxlength="50"
+                                    placeholder="Enter your full name"
+                                    aria-describedby="name-help">
+                                <small id="name-help" class="form-help">Please enter your full name (2-50 characters)</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email *</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email" 
+                                    required
+                                    placeholder="your.email@example.com"
+                                    aria-describedby="email-help">
+                                <small id="email-help" class="form-help">We'll never share your email with anyone</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="subject">Subject</label>
+                                <select id="subject" name="subject" aria-describedby="subject-help">
+                                    <option value="">Select a topic...</option>
+                                    <option value="collaboration">Collaboration Opportunity</option>
+                                    <option value="job">Job Opportunity</option>
+                                    <option value="project">Project Inquiry</option>
+                                    <option value="freelance">Freelance Work</option>
+                                    <option value="other">Other</option>
+                                </select>
+                                <small id="subject-help" class="form-help">Optional: Select the main topic of your message</small>
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="message">Message *</label>
+                                <textarea 
+                                    id="message" 
+                                    name="message" 
+                                    rows="5" 
+                                    required 
+                                    minlength="10" 
+                                    maxlength="1000"
+                                    placeholder="Tell me about your project, opportunity, or how I can help you..."
+                                    aria-describedby="message-help"></textarea>
+                                <small id="message-help" class="form-help">Please provide details about your inquiry (10-1000 characters)</small>
+                            </div>
+                            
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fas fa-paper-plane"></i>
+                                Send Message
+                            </button>
+                            
+                            <p class="form-note">
+                                <i class="fas fa-info-circle"></i>
+                                I typically respond within 24-48 hours. For urgent matters, feel free to reach out via LinkedIn.
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Alex Johnson. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://github.com/alexjohnson" target="_blank" aria-label="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/alexjohnson-dev" target="_blank" aria-label="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:alex.johnson@email.com" aria-label="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
